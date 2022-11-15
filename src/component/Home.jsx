@@ -33,12 +33,12 @@ function Home() {
         </div>
         <div className='d-flex flex-row gap-2 col-md-5 ms-lg-auto'>
             <div className='d-flex flex-column gap-2 pt-5 mt-5'>
-                <img src={hero1} alt="" className='img-fluid '/>
+                <img src={hero1} alt="" className='img-fluid py-2'/>
                 <img src={hero2} alt="" className='img-fluid '/>
             </div>
             <div className='d-flex flex-column gap-2'>
-                <img src={hero3} alt="" className='img-fluid'/>
-                <img src={hero4} alt="" className='img-fluid'/>
+                <img src={hero3} alt="" className='img-fluid py-2 mx-3'/>
+                <img src={hero4} alt="" className='img-fluid mx-3'/>
             </div>
         </div>
     </div>
