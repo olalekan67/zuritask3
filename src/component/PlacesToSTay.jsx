@@ -15,9 +15,9 @@ function Nfts() {
         <div className='mb-5'>
           <ul className='nav gap-2 justify-content-between'>
             {
-              nftLis.map((nftLi) => <li className='nav-item'>{nftLi}</li>)
+              nftLis.map((nftLi) => <li className='nav-item mt-2 mt-md-0'>{nftLi}</li>)
             }
-            <li className="nav-item"><button className="btn nft-pg-btn">Location<BiSlider className='ms-1'/></button></li>
+            <li className="nav-item mt-2 mt-md-0"><button className="btn nft-pg-btn">Location<BiSlider className='ms-1'/></button></li>
           </ul>
         </div>
         <div>
