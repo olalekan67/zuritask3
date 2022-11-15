@@ -1,0 +1,125 @@
+.navBrand{
+  background: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.nav-logo{
+  height: 30px;
+  width: 30px;
+  margin-top: -0.7em;
+}
+.Navlink{
+  text-decoration: none;
+}
+.nav-txt{
+  color: #434343;
+  font-weight: 500;
+}
+.nav-txt:hover{
+  color: #434343;
+}
+.purple-btn{
+  color: #fff;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.hero-span{
+  color: #A02279;
+}
+.search-inp{
+  border-radius: 7px 0px 0px 7px;
+  border-width: 1px;
+}
+.search-btn{
+  border-radius: 0px 5px 5px 0px;
+}
+.nfts-head{
+  background-color: #A02279;
+}
+.logos{
+  padding-top: 20px;
+}
+.cards{
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+}
+.card{
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+}
+.card-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.stars-div{
+  margin-top: -20px;
+}
+.stars{
+  color: #A02279;
+}
+.last-div{
+  background-color: #A02279;
+}
+.text-div{
+  margin-top: 5em;
+  margin-bottom: 7em;
+}
+#learn-moreBtn{
+  background-color: #fff;
+  color: #A02279;
+}
+.outer-div{
+  position: relative;
+}
+.img{
+  max-width: 378.21px;
+  max-height: 253.89;
+  position: absolute;
+}
+.nft-pg-btn{
+  margin-top: -0.4em;
+  border: 1px solid #B4B4B4;
+}
+.footer-logo{
+  height: 30px;
+  width: 30px;
+  margin-top: -0.3em;
+}
+.overlay-background{
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay-container{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 11;
+  padding: 30px 0px;
+  height: fit-content;
+}
+.wallet-div{
+  border: 1px solid #CFD8DC;
+}
+.wallet-div:hover{
+  background-color: #F8F9FA;
+}
+.wallet-text{
+  font-weight: bold;
+}
+.meta{
+  font-weight: lighter;
+}
