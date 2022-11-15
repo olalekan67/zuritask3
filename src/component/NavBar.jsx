@@ -24,7 +24,7 @@ function NavBar() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
               <Nav.Link><Link to='/' className='Navlink mx-2 nav-txt'>Home</Link></Nav.Link>
-              <Nav.Link className='mx-2 nav-txt'><Link to='/places' className='Navlink mx-2 nav-txt'>Place to Stay</Link></Nav.Link>
+              <Nav.Link><Link to='/places' className='Navlink mx-2 nav-txt'>Place to Stay</Link></Nav.Link>
               <Nav.Link  className='mx-2 nav-txt'>NFTs</Nav.Link>
               <Nav.Link className='mx-2 nav-txt'>Community</Nav.Link>
             </Nav>

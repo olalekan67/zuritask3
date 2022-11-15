@@ -28,7 +28,7 @@ function Home() {
 
             <form>
                 <input type="text" className='w-75 py-1 px-2 search-inp' placeholder='Search for location'/>
-                <button className='btn search-btn purple-btn col-lg-3'>Search</button>
+                <button className='btn search-btn purple-btn col-lg-3 mb-3'>Search</button>
             </form>
         </div>
         <div className='d-flex flex-row gap-2 col-md-5 ms-lg-auto'>
