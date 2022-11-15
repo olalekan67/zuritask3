@@ -26,9 +26,9 @@ function Home() {
             we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone
             </p>
 
-            <form>
+            <form className='mb-3'>
                 <input type="text" className='w-75 py-1 px-2 search-inp' placeholder='Search for location'/>
-                <button className='btn search-btn purple-btn col-lg-3 mb-3'>Search</button>
+                <button className='btn search-btn purple-btn col-lg-3'>Search</button>
             </form>
         </div>
         <div className='d-flex flex-row gap-2 col-md-5 ms-lg-auto'>
